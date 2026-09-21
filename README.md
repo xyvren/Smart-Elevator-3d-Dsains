@@ -34,6 +34,26 @@
 
 ![Mobile View](docs/05-mobile-view.png)
 
+### Kabin di Lantai 4 (F4)
+
+![Cabin at F4](docs/06-cabin-f4.png)
+
+### Kabin di Lantai 2 (F2)
+
+![Cabin at F2](docs/07-cabin-f2.png)
+
+### Tampilan Depan — Kabin di Lantai 3
+
+![Front View F3](docs/08-front-f3.png)
+
+### Tampilan Samping — Kabin di Lantai 1
+
+![Side View F1](docs/09-side-f1.png)
+
+### Tampilan Mobile — Kabin di Lantai 3
+
+![Mobile F3](docs/10-mobile-f3.png)
+
 ---
 
 ## Tentang
