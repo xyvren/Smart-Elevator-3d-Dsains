@@ -2,7 +2,7 @@
 
 > Proyek Instrumentasi & Sistem Kendali — Universitas Bangka Belitung
 
-**Chakim Fadlan** · NIM 1022411027 · Teknik Elektro
+**Chakim Fadlan** 
 
 ---
 
