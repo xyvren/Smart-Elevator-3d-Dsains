@@ -10,6 +10,32 @@
 
 **[Buka Smart Elevator 3D →](https://smart-elevator-3d-web.vercel.app)**
 
+---
+
+## Screenshot
+
+### Tampilan 3D (Default)
+
+![3D Isometric View](docs/01-default-3d.png)
+
+### Tampilan Depan
+
+![Front View](docs/02-front-view.png)
+
+### Tampilan Samping
+
+![Side View](docs/03-side-view.png)
+
+### Tampilan Atas
+
+![Top View](docs/04-top-view.png)
+
+### Tampilan Mobile
+
+![Mobile View](docs/05-mobile-view.png)
+
+---
+
 ## Tentang
 
 Miniatur Smart Elevator 4 lantai sebagai implementasi sistem kendali posisi dan kecepatan. Model 3D interaktif dibangun secara programatik dari data desain SketchUp V2 menggunakan Three.js.
@@ -24,6 +50,7 @@ Miniatur Smart Elevator 4 lantai sebagai implementasi sistem kendali posisi dan 
 - **Responsive** — desktop & mobile
 
 ### Subsistem yang Dimodelkan
+
 | # | Subsistem | Keterangan |
 |---|---|---|
 | 1 | Rangka & Landings | Base plywood, 4 tiang, balok, 4 landing platform |
