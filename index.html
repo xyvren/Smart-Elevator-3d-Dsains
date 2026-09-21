@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Elevator V2 — Miniatur 4 Lantai | 3D Viewer</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <!-- Top-left: Project info -->
+  <div id="info-panel">
+    <h1>Smart Elevator V2</h1>
+    <h2>Miniatur 4 Lantai</h2>
+    <p class="subtitle">Proyek Instrumentasi &amp; Sistem Kendali</p>
+    <p><strong>Chakim Fadlan</strong> — NIM 1022411027</p>
+    <p>Teknik Elektro — Universitas Bangka Belitung</p>
+    <p class="note">Skala 1:1 (mm) · Belum diverifikasi fisik</p>
+  </div>
+
+  <!-- Bottom-left: Legend -->
+  <div id="legend">
+    <h3>Sub-Sistem</h3>
+    <div class="legend-item"><span class="dot" style="background:#B89368"></span>Rangka &amp; Landings</div>
+    <div class="legend-item"><span class="dot" style="background:#207EA0"></span>Kabin</div>
+    <div class="legend-item"><span class="dot" style="background:#B9C7D1"></span>Rel Pemandu</div>
+    <div class="legend-item"><span class="dot" style="background:#F09C28"></span>Sensor Posisi</div>
+    <div class="legend-item"><span class="dot" style="background:#308E59"></span>Encoder / PCB</div>
+    <div class="legend-item"><span class="dot" style="background:#252B31"></span>Motor &amp; Kabel</div>
+    <div class="legend-item"><span class="dot" style="background:#DA3D42"></span>Limit / E-Stop</div>
+  </div>
+
+  <!-- Bottom-right: Floor buttons -->
+  <div id="controls">
+    <h3>Gerakkan Kabin</h3>
+    <button data-floor="1" class="floor-btn active">F1</button>
+    <button data-floor="2" class="floor-btn">F2</button>
+    <button data-floor="3" class="floor-btn">F3</button>
+    <button data-floor="4" class="floor-btn">F4</button>
+    <div id="status-bar">Posisi: F1 · Kecepatan: 0 mm/s</div>
+  </div>
+
+  <!-- Top-right: Camera presets -->
+  <div id="camera-presets">
+    <button data-view="perspective" title="3D View">3D</button>
+    <button data-view="front" title="Tampak Depan">Depan</button>
+    <button data-view="side" title="Tampak Samping">Samping</button>
+    <button data-view="top" title="Tampak Atas">Atas</button>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

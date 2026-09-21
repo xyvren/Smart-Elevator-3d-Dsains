@@ -1,0 +1,6 @@
+.vercel
+node_modules/
+dist/
+qa-desktop.png
+qa-mobile.png
+.vite/
